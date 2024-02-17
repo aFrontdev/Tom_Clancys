@@ -1,0 +1,11 @@
+.navbar-brand .title {
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  color: #ff8000;
+  background-image: url("/breakpoint/wikipedia/image/Screenshot_20190510-143618.png");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}/*# sourceMappingURL=indexeq.css.map */

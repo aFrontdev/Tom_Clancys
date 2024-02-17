@@ -1,0 +1,8 @@
+/* GRADIENTS */
+:root {
+  --g01: linear-gradient(to left, #cc2b5e, #753a88);
+  --g02: linear-gradient(to left, #ec008c, #fc6767);
+  --g03: linear-gradient(to left, #00416a, #799f0c, #ffe000);
+  --g04: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(197,41,204,0.9949229691876751) 30%, rgba(253,29,29,1) 50%, rgba(251,111,47,1) 77%, rgba(252,176,69,1) 100%);
+  --g05: linear-gradient(45deg, #FF8000, #00CAD8, #FF3DF4);
+}/*# sourceMappingURL=gradients.css.map */

@@ -1,0 +1,271 @@
+.main {
+  position: relative;
+  top: 82px;
+  width: 100%;
+  height: 80vh;
+}
+
+.flip-card-1 {
+  width: 25vw;
+  height: 90%;
+  background: transparent;
+  perspective: 1000px;
+}
+.flip-card-1 .card-standard {
+  position: relative;
+  top: 25px;
+  left: 80px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  text-align: center;
+}
+.flip-card-1 .card-standard .front, .flip-card-1 .card-standard .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  backface-visibility: hidden;
+}
+.flip-card-1 .card-standard .front {
+  background-image: url("/wildlands/image/574474b488a7e3b8638b456a.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+.flip-card-1 .card-standard .front .header {
+  width: 100%;
+  height: 80px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+  filter: drop-shadow(10px 10px 5px #333);
+}
+.flip-card-1 .card-standard .front .price {
+  position: relative;
+  top: 316px;
+  right: 0px;
+  width: 100%;
+  height: 100px;
+  border-radius: 0 0 20px 20px;
+  background-color: #1d1616;
+  border: 1px solid #000;
+}
+.flip-card-1 .card-standard .front .price .price-content {
+  font-weight: bold;
+  color: #fff;
+}
+.flip-card-1 .card-standard .front .price .price-buy button {
+  width: 60%;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #00c248;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #000;
+  color: #fff;
+}
+.flip-card-1 .card-standard .front .price .price-buy button:hover b {
+  color: #ff8000;
+  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.flip-card-1 .card-standard .back {
+  background-color: #f1f1f1;
+  color: #000;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+.flip-card-1 .card-standard .back h1 {
+  font-size: 35px;
+}
+.flip-card-1 .card-standard .back li {
+  font-size: 20px;
+}
+.flip-card-1:active .card-standard {
+  transform: rotateY(180deg);
+}
+
+.flip-card-2 {
+  width: 25vw;
+  height: 90%;
+  background: transparent;
+  perspective: 1500px;
+}
+.flip-card-2 .card-gold {
+  position: relative;
+  bottom: 472px;
+  left: 580px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  text-align: center;
+}
+.flip-card-2 .card-gold .front, .flip-card-2 .card-gold .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  backface-visibility: hidden;
+}
+.flip-card-2 .card-gold .front {
+  background-image: url("/wildlands/image/5b9696c3ca1a64023f76fa28.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+.flip-card-2 .card-gold .front .header {
+  width: 100%;
+  height: 80px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+  filter: drop-shadow(10px 10px 5px #333);
+}
+.flip-card-2 .card-gold .front .price {
+  position: relative;
+  top: 316.5px;
+  right: 0px;
+  width: 100%;
+  height: 100px;
+  border-radius: 0 0 20px 20px;
+  background-color: #1d1616;
+  border: 1px solid #000;
+}
+.flip-card-2 .card-gold .front .price .price-content {
+  font-weight: bold;
+  color: #fff;
+}
+.flip-card-2 .card-gold .front .price .price-buy button {
+  width: 60%;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #00c248;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #000;
+  color: #fff;
+}
+.flip-card-2 .card-gold .front .price .price-buy button:hover b {
+  color: #ff8000;
+  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.flip-card-2 .card-gold .back {
+  background-color: #f1f1f1;
+  color: #000;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+.flip-card-2 .card-gold .back h1 {
+  font-size: 35px;
+}
+.flip-card-2 .card-gold .back li {
+  font-size: 20px;
+}
+.flip-card-2:active .card-gold {
+  transform: rotateY(180deg);
+}
+
+.flip-card-3 {
+  width: 25vw;
+  height: 90%;
+  background: transparent;
+  perspective: 2000px;
+}
+.flip-card-3 .card-ultimate {
+  position: relative;
+  bottom: 969px;
+  left: 1060px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  text-align: center;
+}
+.flip-card-3 .card-ultimate .front, .flip-card-3 .card-ultimate .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  backface-visibility: hidden;
+}
+.flip-card-3 .card-ultimate .front {
+  background-image: url("/wildlands/image/5b969c88ca1a64033f76fa29.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+.flip-card-3 .card-ultimate .front .header {
+  width: 100%;
+  height: 80px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+  filter: drop-shadow(10px 10px 5px #333);
+}
+.flip-card-3 .card-ultimate .front .price {
+  position: relative;
+  top: 314px;
+  right: 0px;
+  width: 100%;
+  height: 100px;
+  border-radius: 0 0 20px 20px;
+  background-color: #1d1616;
+  border: 1px solid #000;
+}
+.flip-card-3 .card-ultimate .front .price .price-content {
+  font-weight: bold;
+  color: #fff;
+}
+.flip-card-3 .card-ultimate .front .price .price-buy button {
+  width: 60%;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #00c248;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #000;
+  color: #fff;
+}
+.flip-card-3 .card-ultimate .front .price .price-buy button:hover b {
+  color: #ff8000;
+  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.flip-card-3 .card-ultimate .back {
+  background-color: #f1f1f1;
+  color: #000;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+.flip-card-3 .card-ultimate .back h1 {
+  font-size: 35px;
+}
+.flip-card-3 .card-ultimate .back li {
+  font-size: 20px;
+}
+.flip-card-3:active .card-ultimate {
+  transform: rotateY(180deg);
+}
+@keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-800px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=kupno.css.map */

@@ -1,0 +1,422 @@
+
+
+
+body {
+    background: url("/breakpoint/image/pobrane\ \(6\).png") 0 0 repeat, 
+    url("https://static-dm.ubisoft.com/breakpoint/prod/bdccae7e4602802345776e6af9a4f470.jpg") center 0 repeat-y, #04253c;
+    padding: 120px 0 0;
+    background-size: 100%;
+}
+
+
+#nav-bar {
+    position: relative;
+    bottom: 38px;
+    width: 100vw;
+    height: 100px;
+    background-color: #000;
+    .logo {
+        position: relative;
+        right: 5px;
+        bottom: 5px;
+        width: 50%;
+        height: 95%;
+    }
+    #buttons {
+        position: relative;
+        right: 350px;
+        bottom: 5px;
+        width: 145%;
+        height: 95%;
+        a {
+            position: relative;
+            top: 15px;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+            margin-left: 60px;
+            button, a {
+                width: 170px;
+                height: 70%;
+                font-size: 25px;
+                font-weight: bold;
+                background: #04253c;
+                color: #fff;
+                border-radius: 20px;
+            }
+            a, button:hover {
+                border: 2px solid #000;
+                background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAABLBAMAAABjOG0IAAAAJ1BMVEWKjkaKjkaKjkaKjkaKjkaKjkaKjkaKjkaKjkaKjkaKjkaKjkaKjkYMw70YAAAADHRSTlPy+unQ3cCniwhwTyyk7RNCAAAE2UlEQVQYGcXBzW8U5wHH8d+uvUZIz2HXxqBIz2GNMRwyB2MTW2nmYLCLSjIHs+CgKntY7ACC7CHFgdTU1ypq1QNKQmndHIhSKH25tE2bl/Ywz+zalqPvH1W/rO1diDLsdBh/PiprV67vT0//8+1Xf/7L19/+9NPJinuoWIXRoVtva0w78q8+PvXbQlmbZvITuZJaep8E5bLalcU+/8rcysr046+/ujdx8YIZ4kUcd5ZztKyDW2BLMVo+a2mJvhgcp0MoQ0st7zf+Sc/S1Pl7v7rWOFqv8AJcI3ifcXY0zcipmdvssJUztLwWvPVgnnaSMewY8prvXoYpe/fGh/35XMCLcZZdzd7a0Z77bAkt+4ar7/hjtJNs/gzb3GxUBQv5R9dDWYp0r+Hj2NI0YoezBTc/0aSD5B97YOkQ/ez8SC60JBANses4LXajurocMkMbyT/ykA4O8pPWkYjlOeHk6Ws11mu0kQw3LR2cuXTckRoXFG8s+KsBbUIFa58YnmEokSZXHvNp05iV2fgvL1/k0SaaUo+XI3NT6g3I3vsie5Ff1DiZi07f13sBzpIt90jz1R/n7pCxUH87f8ObJlsLoU4uBb1ky10v65RMPxlr1gR4ZE0qmEJA1or63WeD3gwZk379Ef2LZEx6cNOG58iYxEGQZjyyJy1zAKQqB0CyHADJFDwyJ5k3viRzkrl1m8xJpkz2JMsBkDxLyoaIJc0aUlWMrhJLuswRQ3qaj0t5YkljJ0YCEhswdIpe83qIJZkTFiwJHfIqhg7fXfGIJRmgZJwloYuGdmO/OD9MjhiScdaV3BAJ9TZpFz4Zmf2uPkUMybh8zjpDIuHc3TcM7UY3/vV6hTiSKTVLhoTcyuIglj3DsLT4wXs+MSRTwlksieTWvrkzXWNPkcW75K8XiSHl+D+UJx/+ddrSZnQ6Mgv9xJBylk2hV8yRwMMb/rFx9rnTNCqPiCMZmwNC0ztEAseu1IdPsC80EFV8YkjYPFsc3Qvra7eDfsu+0ANWfWJIZymxaTWge9GKN1ehyDPyxJH+3vTY1G9IYL1+ebBK96SgyCZnIo8EDP0B3ZOA0DrHQJVEKiQgDXmEOGgafpAzfC9LAhJ2RNNAiR8W1kmPdMm9ujxhS8TKgyUl0rWLq4/P2hKxjrBeJyXSpXvBoiHeSct6nZRId574I8YRI/KjvrFg1JIOaWlu/V1jaRdanhV642MX6gyRDqkwd68Ojjah4XnX3fRCY5Z0SGu/XPAseWIdLtd6SMY1PTpI9bdrgCWGjSbngpmqM3QhDNjmlq7SQfL0IZFHnMNnKhc0suwsXXCGHTfrdJAIjtjhgA4Nn2c1gpG1cx5JhQHtJC+05Oi0VuX7WJIpgzO0k4wzPCf0SFGOxigdJMOu0BhaBgJSZDk0RQfJbPjs6KsaWkJLOhzbDvtsCi0tkv35VC+WTQM+qQun2GbZFBlaJJ5+PMxL484Bx1mkk/Txm7/hpXEQMvjN8L9h0LqAXdInjX94bCtcLbKvSArceLRyf/XpBxZe+fxolV0SzXnj2PKTL4vsieZJQTS39tGnpu8i0Lw64XK0SByqNoAfwcYj9g1U6V5Ig04+5YYPND2w7Ak1+ub9YUl/kGS0r++P6lahdvL3p2pqlwsLS7fKyqtQk0raU/4f0qRXIoxV/S4AAAAASUVORK5CYII=") 0 0  repeat;
+                color: #ff8000;
+            }
+        }
+    }
+}
+
+.main {
+    position: absolute;
+    top: 180px;
+    width: 100vw;
+    height: 800px;
+    background-image: url("/breakpoint/image/grb-info-hero.jpg");
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    .close-text {
+        background-image: url("/breakpoint/image/pobrane.png");
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 226px;
+        height: 236px;
+        transform: translate(-50%,-50%);
+        top: 40%;
+        left: 50%;
+    }
+    .main-text {
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        display: block;
+        text-align: center;
+        width: 60%;
+        span {
+            font-size: 45px;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+        }
+        h1 {
+            font-size: 65px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: #fff;
+        }
+        p {
+            font-size: 25px;
+            color: #fff;
+        }
+    }
+}
+
+
+.main-2 {
+    position: absolute;
+    width: 100vw;
+    height: 800px;
+    top: 1000px;
+    background-image: url("/breakpoint/image/game-info_enemy.avif");
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    .close-text {
+        background-image: url("/breakpoint/image/pobrane.png");
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 226px;
+        height: 236px;
+        transform: translate(-50%,-50%);
+        top: 40%;
+        left: 50%;
+    }
+    .main-text {
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        display: block;
+        text-align: center;
+        width: 60%;
+        h1 {
+            font-size: 65px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            color: #fff;
+        }
+        p {
+            font-size: 20px;
+            color: #fff;
+        }
+    }
+}
+
+
+.tekst {
+    position: absolute;
+    width: 100vw;
+    height: 450px;
+    top: 1850px;
+    .image {
+        background-image: url("/breakpoint/image/pobrane\ \(1\).png");
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        transform: translate(-50%,-50%);
+        top: 20%;
+        left: 35%;
+    }
+    .tekst-content {
+        position: absolute;
+        top: 15%;
+        left: 32%;
+        display: block;
+        text-align: center;
+        width: 35%;
+        h1 {
+            font-size: 65px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            color: #fff;
+        }
+        h2 {
+            font-size: 40px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #fff;
+        }
+        p {
+            font-size: 15px;
+            color: #fff;
+        }
+    }
+}
+
+
+
+.galery {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    top: 2300px;
+    .galery-1 {
+        position: absolute;
+        left: 8%;
+        width: 40vw;
+        height: 500px;
+        .img {
+            overflow: clip;
+            width: 100%;
+            height: 69%;
+            background-image: url("/breakpoint/image/GRT_UCS13663_GRBP_MTDT_SCRN_01_MilitarySurvival_1080_nl.jpg");
+            background-size: 100%;
+            background-position: cover;
+            background-repeat: no-repeat;
+            z-index: 1;
+            box-shadow: inset 0 0 0 1px #5388a2;
+        }
+    }
+    .galery-2 {
+        position: absolute;
+        left: 50%;
+        width: 40vw;
+        height: 500px;
+        .img {
+            overflow: clip;
+            width: 100%;
+            height: 69%;
+            background-image: url("/breakpoint/image/GRT_UCS13663_GRBP_MTDT_SCRN_11_life_is_harsh_high_mountain_1920_nl.webp");
+            background-size: 100%;
+            background-position: cover;
+            background-repeat: no-repeat;
+            z-index: 1;
+            box-shadow: inset 0 0 0 1px #5388a2;
+        }
+    }
+    .galery-1, .galery-2 {
+        .txt {
+            width: 100%;
+            height: 30%;
+            text-align: center;
+            h1 {
+                font-size: 30px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: #fff
+            }
+            p {
+                font-size: 15px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.galery-3 {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    top: 2800px;
+    .galery-4 {
+        position: absolute;
+        left: 8%;
+        width: 40vw;
+        height: 500px;
+        .img {
+            overflow: clip;
+            width: 100%;
+            height: 69%;
+            background-image: url("/breakpoint/image/game-info_survival_bivouac.jpg");
+            background-size: 100%;
+            background-position: cover;
+            background-repeat: no-repeat;
+            z-index: 1;
+            box-shadow: inset 0 0 0 1px #5388a2;
+        }
+    }
+    .galery-5 {
+        position: absolute;
+        left: 50%;
+        width: 40vw;
+        height: 500px;
+        .img {
+            overflow: clip;
+            width: 100%;
+            height: 69%;
+            background-image: url("/breakpoint/image/game-info_survival_carry.webp");
+            background-size: 100%;
+            background-position: cover;
+            background-repeat: no-repeat;
+            z-index: 1;
+            box-shadow: inset 0 0 0 1px #5388a2;
+        }
+    }
+    .galery-4, .galery-5 {
+        .txt {
+            width: 100%;
+            height: 30%;
+            text-align: center;
+            h1 {
+                font-size: 30px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: #fff
+            }
+            p {
+                font-size: 15px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+.content-game {
+    position: absolute;
+    top: 3400px;
+    width: 100vw;
+    height: auto;
+    .main-txt {
+        position: absolute;
+        left: 35%;
+        width: 30vw;
+        height: 200px;
+        text-align: center;
+        h1 {
+            font-size: 45px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #fff
+        }
+        p {
+            font-size: 15px;
+            color: #fff;
+        }
+    }
+    .inline-content {
+        position: absolute;
+        top: 350px;
+        width: 100vw;
+        height: 500px;
+        display: inline-block;
+        .inline-1 {
+            position: absolute;
+            left: 6%;
+            width: 30vw;
+            height: 100%;
+            .img {
+                overflow: clip;
+                width: 80%;
+                height: 42%;
+                background-image: url("/breakpoint/image/game-info_stealth_blending.webp");
+                background-size: 100%;
+                background-position: cover;
+                background-repeat: no-repeat;
+                box-shadow: inset 0 0 0 1px #5388a2;
+            }
+            .txt {
+                width: 80%;
+                height: 30%;
+                text-align: center;
+                h1 {
+                    font-size: 30px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    color: #fff
+                }
+                p {
+                    font-size: 15px;
+                    color: #fff;
+                }
+            }
+        }
+        .inline-2 {
+            position: absolute;
+            left: 37%;
+            width: 30vw;
+            height: 100%;
+            .img {
+                overflow: clip;
+                width: 80%;
+                height: 42%;
+                background-image: url("/breakpoint/image/game-info_stealth_AI.webp");
+                background-size: 100%;
+                background-position: cover;
+                background-repeat: no-repeat;
+                box-shadow: inset 0 0 0 1px #5388a2;
+            }
+            .txt {
+                width: 80%;
+                height: 30%;
+                text-align: center;
+                h1 {
+                    font-size: 30px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    color: #fff
+                }
+                p {
+                    font-size: 15px;
+                    color: #fff;
+                }
+            }
+        }
+        .inline-3 {
+            position: absolute;
+            left: 67%;
+            width: 30vw;
+            height: 100%;
+            .img {
+                overflow: clip;
+                width: 80%;
+                height: 42%;
+                background-image: url("/breakpoint/image/05_game_info_military_stealth_03.jpg");
+                background-size: 100%;
+                background-position: cover;
+                background-repeat: no-repeat;
+                box-shadow: inset 0 0 0 1px #5388a2;
+            }
+            .txt {
+                width: 80%;
+                height: 30%;
+                text-align: center;
+                h1 {
+                    font-size: 30px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    color: #fff
+                }
+                p {
+                    font-size: 15px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

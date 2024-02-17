@@ -1,0 +1,79 @@
+// VARIABLES // 
+
+@function tint-color($color, $weight) {
+    @return mix(black, $color, $weight);
+}
+
+@function shade-color($color, $weight) {
+    @return mix(white, $color, $weight);
+}
+
+
+
+//tint-color ROZJAŚNIAĆ 
+//shade-color PRZYCIEMNIAĆ 
+
+
+// Basic Color Variables !Default 
+$red: #FF0000 !default;
+$cyan: #00FFFF !default;
+$black: #000000 !default;
+$blue: #0000FF !default;
+$fuchsia: #FF00FF !default;
+$green: #008000 !default;
+$grey: #808080 !default;
+$lime: #00FF00 !default;
+$maroon: #800000 !default;
+$navy: #000080 !default;
+$olive: #808000 !default;
+$purple: #800080 !default;
+$silver: #C0C0C0 !default;
+$teal: #008080 !default;
+$white: #FFFFFF !default;
+$yellow: #FFFF00 !default;
+// Basic Color Variables !Default 
+
+
+// Color Tinge "RED" !Default
+
+$red-10: shade-color($red, 80%) !default;
+$red-20: shade-color($red, 60%) !default;
+$red-30: shade-color($red, 40%) !default;
+$red-40: shade-color($red, 20%) !default;
+$red-50: $red !default;
+$red-60: tint-color($red, 20%) !default;
+$red-70: tint-color($red, 40%) !default;
+$red-80: tint-color($red, 60%) !default;
+$red-90: tint-color($red, 80%) !default;
+
+// Color Tinge "RED" !Default
+
+
+// Color Tinge "CYAN" !Default
+
+$cyan-10: shade-color($cyan, 80%) !default;
+$cyan-20: shade-color($cyan, 60%) !default;
+$cyan-30: shade-color($cyan, 40%) !default;
+$cyan-40: shade-color($cyan, 20%) !default;
+$cyan-50: $cyan !default;
+$cyan-60: tint-color($cyan, 20%) !default;
+$cyan-70: tint-color($cyan, 40%) !default;
+$cyan-80: tint-color($cyan, 60%) !default;
+$cyan-90: tint-color($cyan, 80%) !default;
+
+// Color Tinge "CYAN" !Default
+
+
+// Color Tinge "BLUE" !Default
+
+$blue-10: shade-color($blue, 80%) !default;
+$blue-20: shade-color($blue, 60%) !default;
+$blue-30: shade-color($blue, 40%) !default;
+$blue-40: shade-color($blue, 20%) !default;
+$blue-50: $blue !default;
+$blue-60: tint-color($blue, 20%) !default;
+$blue-70: tint-color($blue, 40%) !default;
+$blue-80: tint-color($blue, 60%) !default;
+$blue-90: tint-color($blue, 80%) !default;
+
+// Color Tinge "BLUE" !Default

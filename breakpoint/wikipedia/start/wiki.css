@@ -1,0 +1,255 @@
+@import "/scss/colors.css";
+@import "/scss/gradients.css";
+body {
+  animation-name: bgimage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-attachment: fixed;
+}
+
+.navbar-brand .title {
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  color: #ff8000;
+  background-image: url("/breakpoint/wikipedia/image/Screenshot_20190510-143618.png");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.container-wiki {
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  width: 75%;
+  height: 500px;
+  background: none;
+  text-align: center;
+  cursor: default;
+}
+.container-wiki .wiki-title {
+  text-align: center;
+  width: 100%;
+  height: 15%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 2px 4px 8px gray;
+}
+.container-wiki .wiki-title h1 {
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  -webkit-text-stroke: 1px black;
+  animation-name: bgimage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.container-wiki .developer {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px gray;
+}
+.container-wiki .developer h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  -webkit-text-stroke: 1px black;
+  animation-name: bgimage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.container-wiki .rel-date {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px gray;
+}
+.container-wiki .rel-date h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  -webkit-text-stroke: 1px black;
+  animation-name: bgimage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.container-wiki .platforms {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px gray;
+}
+.container-wiki .platforms h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  -webkit-text-stroke: 1px black;
+  animation-name: bgimage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.container-wiki .platforms p {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #000;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 8px;
+}
+
+.search-box {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.input-search {
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all 0.5s ease-in-out;
+  background-color: #22a6b3;
+  padding-right: 40px;
+  color: #fff;
+}
+
+.input-search::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.input-search::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.btn-search {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color: #ffffff;
+  background-color: transparent;
+  pointer-events: painted;
+}
+
+.btn-search:focus ~ .input-search {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+}
+
+.input-search:focus {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+}
+
+@keyframes bgimage {
+  0% {
+    background-image: url("/breakpoint/wikipedia/image/Mount-hodgson-infinity-auroa-grbreakpoint.jpg");
+  }
+  20% {
+    background-image: url("/breakpoint/wikipedia/image/Gr-breakpoint-helicopter-gyps-official-screenshot.jpg");
+  }
+  40% {
+    background-image: url("/breakpoint/wikipedia/image/Screenshot_20190510-143618.png");
+  }
+  60% {
+    background-image: url("/breakpoint/wikipedia/image/Thumb-1920-1021206.jpg");
+  }
+  80% {
+    background-image: url("/breakpoint/wikipedia/image/Tom-clancys-ghost-recon-breakpoint-screen-02-ps4-en-30apr19.jpg");
+  }
+  100% {
+    background-image: url("/breakpoint/wikipedia/image/Y1pass-ghost-recon-breakpoint-art1.jpg");
+  }
+}
+/*     background-image: url("/breakpoint/wikipedia/image/Screenshot_20190510-143618.png");
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat; *//*# sourceMappingURL=wiki.css.map */

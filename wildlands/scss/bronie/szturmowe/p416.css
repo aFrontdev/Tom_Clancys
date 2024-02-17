@@ -1,0 +1,127 @@
+body {
+  background-image: url("/wildlands/image/GRW_Hero_1920x1080.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  width: 99vw;
+  left: 10px;
+  bottom: 20px;
+  height: 110px;
+  background: #333;
+}
+.header .logo {
+  font-family: "Courier New", Courier, monospace;
+}
+.header .logo h2 {
+  color: #f1f1f1;
+  margin-left: 8px;
+}
+.header .logo p {
+  position: relative;
+  bottom: 10px;
+  left: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  width: 190px;
+  padding: 0 15px 0 15px;
+  border-radius: 80px 0 80px 0;
+  background: #ff8000;
+}
+
+.back-btn {
+  display: block;
+  width: 200px;
+  height: 100px;
+  position: relative;
+  bottom: 120px;
+  left: 1200px;
+}
+.back-btn .back-button {
+  display: block;
+  position: relative;
+  top: 10px;
+  left: 120px;
+  width: 150px;
+  height: 80px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  background: #333;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  filter: drop-shadow(4px 4px 10px #fff);
+}
+.back-btn .back-button img {
+  position: relative;
+  top: 22px;
+  right: -5px;
+}
+.back-btn .back-button h2 {
+  position: absolute;
+  bottom: -10px;
+  left: 40px;
+}
+.back-btn .back-button:hover {
+  transform: scale(1.1, 1.1);
+  transition: transform 1s;
+  background: #f1f1f1;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.links {
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+  width: 99vw;
+  height: 50px;
+  background: #333;
+  border-top: 4px solid #000;
+}
+.links h2 {
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  color: #ff8000;
+}
+.links h2 a {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.container {
+  position: absolute;
+  left: 13%;
+  width: 75%;
+  height: 600px;
+  background: #000;
+}
+.container .name {
+  position: absolute;
+  top: 35px;
+  left: 45px;
+  background: #000;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+.container .name h2 {
+  background-image: url("/wildlands/image/GRW_Hero_1920x1080.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+}
+.container .name h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff8000;
+}/*# sourceMappingURL=p416.css.map */

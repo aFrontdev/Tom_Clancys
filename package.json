@@ -1,0 +1,25 @@
+{
+    "npm-intellisense.packageSubfoldersIntellisense": false,
+    "npm-intellisense.scanDevDependencies": true,
+    "npm-intellisense.importES6": true,
+    "npm-intellisense.importQuotes": "'",
+    "npm-intellisense.importLinebreak": ";\r\n",
+    "npm-intellisense.importDeclarationType": "const",
+    "npm-intellisense.showBuildInLibs": true,
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "target": "ES2020",
+        "jsx": "react",
+        "allowImportingTsExtensions": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ],
+    "dependencies": {
+        "bootstrap": "^5.3.2"
+    }
+}

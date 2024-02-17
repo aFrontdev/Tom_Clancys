@@ -1,0 +1,229 @@
+#nav-bar {
+    position: relative;
+    top: 80px;
+    width: 101%;
+    height: 90px;
+    background-color: #333;
+    #plogo {
+        font-family: 'Courier New', Courier, monospace;
+        h2 {
+            color: #f1f1f1;
+            margin-left: 8px;
+        }
+        p {
+            position: relative;
+            bottom: 10px;
+            left: 90px;
+            font-size: 30px;
+            font-weight: bold;;
+            width: 190px;
+            padding: 0 15px 0 15px;
+            border-radius: 80px 0 80px 0;
+            background-color: #ff8000;
+        }
+    }
+    #nav-col-btn {
+        a {
+            position: relative;
+            top: 5px;
+            margin-left: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            button {
+                padding: 20px 30px;
+                border-radius: 25px;
+                border: 2px solid #000;
+                background-color: #ff8000;
+                color: #fff;
+                filter:drop-shadow(15px 10px 5px #000)
+            }
+            button:hover {
+                background-color: #fff;
+                color: #ff8000;
+                transform: scale(1.1, 1.1);
+                transition: transform 1s;
+            }
+        }
+    }
+}
+
+.stage-1 {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: 900px;
+    .upper-site {
+        width: 100%;
+        height: 600px;
+        background-image: url("/wildlands/image/GRW_Hero_1920x1080.jpg");
+        background-size: 100%;
+        background-position: center;
+    }
+    .down-site {
+        width: 100%;
+        height: 300px;
+        background-color: #f1f1f1;
+    }
+    .content-site {
+        position: relative;
+        bottom: 450px;
+        left: 10vw;
+        width: 80%;
+        height: 450px;
+        background-color: #f1f1f1;
+        text-align: center;
+        h1 {
+            font-size: 80px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p {
+            position: relative;
+            top: 120px;
+            font-size: 25px;
+            filter:contrast(1.75)
+            sepia(0);
+        }
+    }
+}
+
+.stage-2 {
+    width: 101%;
+    height: 750px;
+    position: relative;
+    top: 80px;
+    background-color: #e5e7e4;
+    .box-image {
+        position: relative;
+        top: 50px;
+        left: 75px;
+        width: 60vw;
+        height: 550px;
+        background-image: url("/wildlands/image/ghost-recon_01.jpg");
+        background-position: center;
+        background-size: 110%;
+    }
+    .box-content {
+        position: relative;
+        bottom: 150px;
+        left: 580px;
+        width: 35vw;
+        height: 300px;
+        background-color: #f1f1f1;
+        filter: drop-shadow(10px 10px 8px #333);
+        text-align: center;
+        h1 {
+            font-size: 35px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        p {
+            font-size: 20px;
+            filter: contrast(1.75)
+            sepia(0);
+        }
+    }
+    #item-list {
+        position: relative;
+        bottom: 800px;
+        left: 1000px;
+        z-index: 1;
+        button {
+            border: none;
+        }
+        li {
+            width: 150px;
+            height: 55px;
+            font-size: 20px;
+            background-color: none;
+            color: #000;
+            a {
+                width: 100%;
+                height: 100%;
+                img {
+                    margin-left: 15px;
+                }
+            }
+            a:hover {
+                background-color: #666666;
+                color: #ff8000;
+            }
+        }
+    }
+}
+
+.stage-3 {
+    width: 101%;
+    height: 750px;
+    position: relative;
+    top: 80px;
+    background-color: #d8dbd6;
+    .box-image {
+        position: relative;
+        top: 60px;
+        left: 500px;
+        width: 60vw;
+        height: 550px;
+        background-image: url("/wildlands/image/Wildlands-Update-FI.jpg");
+        background-position: center;
+        background-size: 110%;
+    }
+    .box-content {
+        position: relative;
+        bottom: 150px;
+        left: 200px;
+        width: 35vw;
+        height: 300px;
+        background-color: #f1f1f1;
+        filter: drop-shadow(10px 10px 8px #333);
+        text-align: center;
+        h1 {
+            font-size: 35px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        p {
+            font-size: 20px;
+            filter: contrast(1.75)
+            sepia(0);
+        }
+    }
+}
+
+.stage-4 {
+    width: 101%;
+    height: 750px;
+    position: relative;
+    top: 80px;
+    background-color: #bfbfbf;
+    .box-image{
+        position: relative;
+        top: 80px;
+        left: 50px;
+        width: 60vw;
+        height: 550px;
+        background-image: url("/wildlands/image/GRW_Promo3_1280x720.jpg");
+        background-position: center;
+        background-size: 110%;
+    }
+    .box-content{
+        position: relative;
+        bottom: 150px;
+        left: 750px;
+        width: 35vw;
+        height: 300px;
+        background-color: #f1f1f1;
+        filter: drop-shadow(10px 10px 8px #333);
+        text-align: center;
+        h1 {
+            font-size: 35px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        p {
+            font-size: 20px;
+            filter: contrast(1.75)
+            sepia(0);
+        }
+    }
+}
